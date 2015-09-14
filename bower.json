@@ -1,0 +1,25 @@
+{
+  "name": "kit-ninja",
+  "version": "0.0.0",
+  "homepage": "https://github.com/thecyclingfarmer/kit-ninja",
+  "authors": [
+    "thecyclingfarmer <martgust@gmail.com>"
+  ],
+  "description": "Knowit Ninja helpers",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "Knowit",
+    "ninjas"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
