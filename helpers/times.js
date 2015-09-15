@@ -1,4 +1,4 @@
-module.exports = function (n, block) {
+module.exports = function times(n, block) {
 	var accum = '';
 	for (var i = 0; i < n; ++i) {
 		accum += block.fn(i);
