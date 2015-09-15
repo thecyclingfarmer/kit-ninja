@@ -1,4 +1,4 @@
-var times = require('times');
+var times = require('./times.js');
 var helpers = {
   times: 'times'
 }
