@@ -1,5 +1,5 @@
 var helpers = {
-  times: require('times')
+  times: require('./helpers/times')
 }
 
 module.exports = helpers;
