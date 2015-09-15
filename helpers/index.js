@@ -1,6 +1,6 @@
 var times = require('./times.js');
 var helpers = {
-  times: 'times'
+  times: times
 }
 
 module.exports = helpers;
