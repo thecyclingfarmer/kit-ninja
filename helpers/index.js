@@ -1,5 +1,5 @@
-module.exports = function () {
-  return {
-    times: require('times')
-  }
-};
+var helpers = {
+  times: require('times')
+}
+
+module.exports = helpers;
