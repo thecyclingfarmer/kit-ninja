@@ -1,12 +1,13 @@
-var times =  require('./times'),
-    cat   =  require('./cat'),
-    lorem =  require('./lorem');
+module.exports = function (handlebars) {
+  var times =  require('./times'),
+      cat   =  require('./cat')(handlebars),
+      lorem =  require('./lorem'),
+      helpers = {
+          times: times,
+          lipsumtitle: lorem.lipsumtitle,
+          lipsum: lorem.lipsum,
+          cat: cat
+      };
 
-var helpers = {
-  times: times,
-  lipsumtitle: lorem.lipsumtitle,
-  lipsum: lorem.lipsum,
-  cat: cat
+  return helpers;
 }
-
-module.exports = helpers;
