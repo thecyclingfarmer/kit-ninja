@@ -1,8 +1,10 @@
-var times = require('./times'),
-    lorem = require('./lorem');
+var times =  require('./times'),
+    lorem =  require('./lorem');
+
 var helpers = {
   times: times,
-  lorem: lorem
+  lipsumtitle: lorem.lipsumtitle,
+  lipsum: lorem.lipsum
 }
 
 module.exports = helpers;
