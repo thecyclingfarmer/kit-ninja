@@ -1,6 +1,8 @@
-var times = require('./times.js');
+var times = require('./times'),
+    lorem = require('./lorem');
 var helpers = {
-  times: times
+  times: times,
+  lorem: lorem
 }
 
 module.exports = helpers;
