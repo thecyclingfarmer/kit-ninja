@@ -1,7 +1,8 @@
 module.exports = function (handlebars) {
-  var times =  require('./times'),
-      cat   =  require('./cat')(handlebars),
-      lorem =  require('./lorem'),
+  var times   =  require('./times'),
+      cat     =  require('./cat')(handlebars),
+      claude  =  require('./claude')(handlebars),
+      lorem   =  require('./lorem'),
       helpers = {
           times: times,
           lipsumtitle: lorem.lipsumtitle,
