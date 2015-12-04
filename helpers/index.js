@@ -7,7 +7,8 @@ module.exports = function (handlebars) {
           times: times,
           lipsumtitle: lorem.lipsumtitle,
           lipsum: lorem.lipsum,
-          cat: cat
+          cat: cat,
+          claude: claude
       };
 
   return helpers;
