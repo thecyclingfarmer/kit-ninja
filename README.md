@@ -14,4 +14,6 @@ Available handlebar helpers:
 
 {{cat}}
 
+{{claude}}
+
 ```
