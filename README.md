@@ -1,7 +1,7 @@
 # kit-ninja
 Knowit Ninja project
 
-Available helpers:
+Available handlebar helpers:
 
 ```bash
 
